@@ -107,7 +107,7 @@ episodes <- add_row(episodes,
 )
 
 episodes <- add_column(episodes, rank = 1:3)
-# making the keywords dataframe -----------------------------------------------------------
+# making keywords dataframe -----------------------------------------------------------
 keywords <- tibble(
   keywords = maniac %>%
                      html_nodes(".itemprop") %>%
